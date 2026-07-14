@@ -42,6 +42,10 @@ val baseCppFlags = baseCFlags + "-fno-rtti"
 android {
     namespace = "me.weishu.kernelsu"
 
+    defaultConfig {
+        applicationId = "com.mysu.app"
+        }
+
     buildTypes {
         debug {
             externalNativeBuild {
